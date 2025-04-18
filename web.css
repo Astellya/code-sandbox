@@ -1,3 +1,4 @@
+/*//////////////////////////// COMPUTER /////////////////////////////////*/
 @media screen and (min-width:900px) {
     h1 {
         text-align: center;
@@ -6,7 +7,6 @@
 
     body {
         background-image: linear-gradient(rgb(0, 40, 12), rgb(0, 0, 0));
-        background-repeat: no-repeat;
         height: 100vw;
     }
 
@@ -21,3 +21,162 @@
        background-color: black
     }
 }
+
+button {
+    background-image:  linear-gradient(orange, rgb(176, 85, 0));
+    -webkit-text-fill-color: rgb(255, 255, 255);
+   
+}
+
+
+nav{
+    background-image: linear-gradient(rgb(0, 124, 0), rgb(0, 74, 0));
+    position:relative;
+    left:-2.6%;
+    width: 102.6%;
+    text-size-adjust:inherit;
+
+
+   }
+
+   .nav-item {
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.855);
+}
+   .nav-item:hover {
+    border-top: 1px solid rgba(0, 0, 0, 0.34);
+    border-bottom: 1px solid orange;
+    background-image: linear-gradient(orange, rgb(176, 85, 0)) ;
+    border-radius: 5px;
+    -webkit-text-fill-color: black ;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////////////////////////////  TABLETS  ////////////////////////////////////*/
+@media screen and (min-width: 580px) and (max-width: 899px) { 
+    h1 {
+        text-align: center;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0.562);
+    }
+
+    body {
+        background-image: linear-gradient(rgb(0, 40, 12), rgb(0, 0, 0));
+        height: 126vw;
+    }
+
+    #demo {
+        border: 5px solid black ;
+    }
+    
+    button {
+         background-image:  linear-gradient(orange, rgb(176, 85, 0));
+         -webkit-text-fill-color: rgb(255, 255, 255);
+    }
+    button:hover {
+        
+    }
+
+    nav{
+         background-image: linear-gradient(rgb(0, 124, 0), rgb(0, 74, 0));
+         position:relative;
+         width: 105.5%;
+         left: -5.5%;
+        }
+
+    .nav-item {
+        -webkit-text-fill-color: rgba(255, 255, 255, 0.855);
+    }
+    .nav-item:hover {
+        border-top: 1px solid rgba(0, 0, 0, 0.34);
+        border-bottom: 1px solid orange;
+        background-image: linear-gradient(orange, rgb(176, 85, 0)) ;
+        border-radius: 5px;
+        -webkit-text-fill-color: black ;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////   MOBILE  ///////////////////////////////////////*/
+@media screen and (max-width:579px ) { 
+    h1 {
+        text-align: center;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0.562);
+    }
+   
+
+    body {
+        background-image: linear-gradient(rgb(0, 40, 12), rgb(0, 0, 0));
+        height: 222vw;
+    }
+
+    #demo {
+        border: 5px solid black;
+    }
+
+    nav > button {
+        background-image:  linear-gradient(orange, rgb(176, 85, 0));
+        -webkit-text-fill-color: rgb(255, 255, 255);
+       
+   }
+
+   nav{
+        background-image: linear-gradient(rgb(0, 124, 0), rgb(0, 74, 0));
+        position:relative;
+        width: 110%;
+        left: -10%;
+       }
+    
+       .nav-item {
+        -webkit-text-fill-color: rgba(255, 255, 255, 0.855);
+    }
+    .nav-item:hover {
+         border-top: 1px solid rgba(0, 0, 0, 0.34);
+         border-bottom: 1px solid orange;
+         background-image: linear-gradient(orange, rgb(176, 85, 0)) ;
+         border-radius: 5px;
+        -webkit-text-fill-color: black ;
+        width: 40%;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);
+     }     
+  }
+ 
