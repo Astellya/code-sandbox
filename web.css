@@ -1,5 +1,8 @@
-/*//////////////////////////// COMPUTER /////////////////////////////////*/
-@media screen and (min-width:900px) {
+/*//////////////////////////// COMPUTER /////////////////////////////////////////////////////////*/
+@media screen and (min-width:1145px) {
+    *{
+        font-family: Verdana, Tahoma, sans-serif;
+    }
     h1 {
         text-align: center;
         -webkit-text-fill-color: rgba(255, 255, 255, 0.633);
@@ -7,7 +10,7 @@
 
     body {
         background-image: linear-gradient(rgb(0, 40, 12), rgb(0, 0, 0));
-        height: 100vw;
+        height: 100%;
     }
 
     #demo {
@@ -18,60 +21,239 @@
     }
 
     .cinza {
-       background-color: black
+       background-color: black;
     }
-}
+                                 button {
+                                       background-color: #ffc107;
+                                       -webkit-text-fill-color: rgb(255, 255, 255);
+                                        }
 
-button {
-    background-image:  linear-gradient(orange, rgb(176, 85, 0));
-    -webkit-text-fill-color: rgb(255, 255, 255);
-   
-}
-
-
+                                button.btn {
+                                    background-color: #ffc107;
+                                    border-bottom: 1px solid rgb(124, 255, 124);
+                                        }
+                                    
+                                 button.btn:hover {
+                                       background-color:#ffc107 ;
+                                       border-bottom: 1px solid rgb(124, 255, 124);
+                                       border: 1px solid black;
+                                       -webkit-text-fill-color: black;
+                                 }
 nav{
     background-image: linear-gradient(rgb(0, 124, 0), rgb(0, 74, 0));
     position:relative;
     left:-2.6%;
     width: 102.6%;
     text-size-adjust:inherit;
-
-
    }
 
    .nav-item {
     -webkit-text-fill-color: rgba(255, 255, 255, 0.855);
+    margin-left: 40px;
+   }
+   .nav-item:hover {
+    border-top: 1px solid rgba(0, 0, 0, 0.34);
+    border-bottom: 1px solid rgb(124, 255, 124);
+    background-color: #ffc107;
+    border-radius: 5px;
+    -webkit-text-fill-color: black ;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);}
+
+    main {
+        margin: 2%;
+    }
+
+    .card-body {
+        background-image: linear-gradient( rgb(70, 70, 70), black);
+        -webkit-text-fill-color: white;
+        text-align: justify;
+    }
+    .card2 {
+        background-image: linear-gradient(rgb(56, 73, 0), black);
+    }
+    .card3 {
+        background-image: linear-gradient(rgb(78, 75, 0), black);
+    }
+                #card-tundra {
+                    position: relative;
+                    height: 649px;
+                }        
+
+                #card-taiga {
+                    position: relative;
+                    left: 36.5%;
+                    top: -649px;
+                    height: 654px ;
+                }
+           
+                #card-temperate {
+                    position: relative;
+                    left: 73%;
+                     top: -1302px;
+                     height:655px;
+                }
+
+    #button-tundra {
+        position: relative;
+        bottom: -20px;
+        -webkit-text-fill-color: black;
+    }
+    #button-taiga {
+        -webkit-text-fill-color: black;
+    }
+    #button-temperate {
+        position: relative;
+        bottom: -99px;
+        -webkit-text-fill-color: black;
+    }
+    .bi-search {
+        background-color: white;
+        height: 50px;
+        width: 50px;
+        border-radius: 5px;
+        position: relative;
+        left:8px;
+        padding: 5px;
+    }
+
+    }
+
+
+
+
+/*////////////////////////////  COMPUTER/2  ///////////////////////////////////////////////////////////////*/
+
+@media screen and (min-width: 900px) and (max-width: 1145px){
+    *{
+        font-family: Verdana, Tahoma, sans-serif;
+    }
+    h1 {
+        text-align: center;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0.633);
+    }
+
+    body {
+        background-image: linear-gradient(rgb(0, 40, 12), rgb(0, 0, 0));
+        height: 100%;
+    }
+
+    #demo {
+        border: 5px solid;
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
+
+    .cinza {
+       background-color: black;
+    }
+
+
+                                 button {
+                                       background-color: #ffc107;
+                                       -webkit-text-fill-color: rgb(255, 255, 255);
+                                        }
+
+                                button.btn {
+                                    background-color: #ffc107;
+                                    border-bottom: 1px solid rgb(124, 255, 124);
+                                        }
+                                    
+                                 button.btn:hover {
+                                       background-color:#ffc107 ;
+                                       border-bottom: 1px solid rgb(124, 255, 124);
+                                       border: 1px solid black;
+                                       -webkit-text-fill-color: black;
+                                 }
+nav{
+    background-image: linear-gradient(rgb(0, 124, 0), rgb(0, 74, 0));
+    position:relative;
+    left:-2.6%;
+    width: 102.6%;
+    text-size-adjust:inherit;
+   }
+
+   .nav-item {
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.855);
+    margin-left: 40px;
 }
    .nav-item:hover {
     border-top: 1px solid rgba(0, 0, 0, 0.34);
-    border-bottom: 1px solid orange;
-    background-image: linear-gradient(orange, rgb(176, 85, 0)) ;
+    border-bottom: 1px solid rgb(124, 255, 124);
+    background-color: #ffc107;
     border-radius: 5px;
     -webkit-text-fill-color: black ;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);}
 
-}
+    main {
+        margin: 2%;
+    }
+
+    .card-body {
+        background-image: linear-gradient( rgb(70, 70, 70), black);
+        -webkit-text-fill-color: white;
+        text-align: justify;
+    }
+    .card2 {
+        background-image: linear-gradient(rgb(56, 73, 0), black);
+    }
+    .card3 {
+        background-image: linear-gradient(rgb(78, 75, 0), black);
+    }
+                #card-tundra {
+                    position: relative;
+                    height: 649px;
+                    Left: 8.5%;
+                }        
+
+                #card-taiga {
+                    position: relative;
+                    left: 55.5%;
+                    top: -649px;
+                    height: 654px ;
+                }
+           
+                #card-temperate {
+                    position: relative;
+                    left: 8.5%;
+                     top: -609px;
+                     height:655px;
+                }
+
+    #button-tundra {
+        position: relative;
+        bottom: -20px;
+        -webkit-text-fill-color: black;
+    }
+    #button-taiga {
+        -webkit-text-fill-color: black;
+    }
+    #button-temperate {
+        position: relative;
+        bottom: -99px;
+        -webkit-text-fill-color: black;
+    }
+    .bi-search {
+        background-color: white;
+        height: 50px;
+        width: 50px;
+        border-radius: 5px;
+        position: relative;
+        left:8px;
+        padding: 5px;
+    }
+
+
+    }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*////////////////////////////  TABLETS  ////////////////////////////////////*/
+/*////////////////////////////  TABLETS  /////////////////////////////////////////////////////////////*/
 @media screen and (min-width: 580px) and (max-width: 899px) { 
+    *{
+        font-family: Verdana, Tahoma, sans-serif;
+    }
+
     h1 {
         text-align: center;
         -webkit-text-fill-color: rgba(255, 255, 255, 0.562);
@@ -79,21 +261,29 @@ nav{
 
     body {
         background-image: linear-gradient(rgb(0, 40, 12), rgb(0, 0, 0));
-        height: 126vw;
+        height:2450px;
     }
 
     #demo {
         border: 5px solid black ;
     }
-    
-    button {
-         background-image:  linear-gradient(orange, rgb(176, 85, 0));
-         -webkit-text-fill-color: rgb(255, 255, 255);
-    }
-    button:hover {
-        
-    }
-
+     
+                    button {
+                        background-image: #ffc107;
+                        -webkit-text-fill-color: rgb(255, 255, 255);
+                    }
+                    button.btn {
+                        background-color: #ffc107;
+                        border-bottom: 1px solid rgb(124, 255, 124);
+                            }
+                        
+                    button.btn:hover {
+                        background-color:#ffc107 ;
+                        border-bottom: 1px solid rgb(124, 255, 124);
+                        border: 1px solid black;
+                        -webkit-text-fill-color: black;
+                    }
+  
     nav{
          background-image: linear-gradient(rgb(0, 124, 0), rgb(0, 74, 0));
          position:relative;
@@ -103,41 +293,85 @@ nav{
 
     .nav-item {
         -webkit-text-fill-color: rgba(255, 255, 255, 0.855);
+        margin-left: 0px;
     }
     .nav-item:hover {
         border-top: 1px solid rgba(0, 0, 0, 0.34);
-        border-bottom: 1px solid orange;
-        background-image: linear-gradient(orange, rgb(176, 85, 0)) ;
+        border-bottom: 1px solid rgb(124, 255, 124);
+        background-color: #ffc107 ;
         border-radius: 5px;
         -webkit-text-fill-color: black ;
         box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);
+    }
+
+    main {
+        margin: 2%;
+        align-content: center;
+    }
+
+    .card-body {
+        background-image: linear-gradient( rgb(70, 70, 70), black);
+        -webkit-text-fill-color: white;
+        text-align: justify;
+    }
+    .card2 {
+        background-image: linear-gradient(rgb(56, 73, 0), black);
+    }
+    .card3 {
+        background-image: linear-gradient(rgb(78, 75, 0), black);
+    }
+                    #card-tundra {
+                        position: relative;
+                        height: 649px;
+                        Left: 23.5%;
+                    }        
+
+                    #card-taiga {
+                        position: relative;
+                        left: 23.5%;
+                        top: 32px;
+                        height: 654px ;
+                    }
+
+                    #card-temperate {
+                        position: relative;
+                        left: 23.5%;
+                        top: 65px;
+                        height:655px;
+                    }
+
+    #button-tundra {
+        position: relative;
+        bottom: -20px;
+        -webkit-text-fill-color: black;
+    }
+    #button-taiga {
+        -webkit-text-fill-color: black;
+    }
+    #button-temperate {
+        position: relative;
+        bottom: -99px;
+        -webkit-text-fill-color: black;
+    }
+    .bi-search {
+        background-color: white;
+        height: 50px;
+        width: 50px;
+        border-radius: 5px;
+        position: relative;
+        left:8px;
+        padding: 5px;
     }
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*/////////////////////////////   MOBILE  ///////////////////////////////////////*/
+/*/////////////////////////////   MOBILE  ////////////////////////////////////////////////////////////////////////////*/
 @media screen and (max-width:579px ) { 
+    *{
+        font-family: Verdana, Tahoma, sans-serif;
+    }
+
     h1 {
         text-align: center;
         -webkit-text-fill-color: rgba(255, 255, 255, 0.562);
@@ -146,20 +380,28 @@ nav{
 
     body {
         background-image: linear-gradient(rgb(0, 40, 12), rgb(0, 0, 0));
-        height: 222vw;
+        height: 100%;
     }
 
     #demo {
         border: 5px solid black;
     }
-
-    nav > button {
-        background-image:  linear-gradient(orange, rgb(176, 85, 0));
-        -webkit-text-fill-color: rgb(255, 255, 255);
-       
-   }
-
-   nav{
+                        button {
+                            background-image:  linear-gradient(orange, rgb(176, 85, 0));
+                            -webkit-text-fill-color: rgb(255, 255, 255);
+                        }
+                        button.btn {
+                            background-color: #ffc107;
+                            border-bottom: 1px solid rgb(124, 255, 124);
+                                }
+                            
+                        button.btn:hover {
+                            background-color:#ffc107 ;
+                            border-bottom: 1px solid rgb(124, 255, 124);
+                            border: 1px solid black;
+                            -webkit-text-fill-color: black;
+                        }
+    nav{
         background-image: linear-gradient(rgb(0, 124, 0), rgb(0, 74, 0));
         position:relative;
         width: 110%;
@@ -168,15 +410,80 @@ nav{
     
        .nav-item {
         -webkit-text-fill-color: rgba(255, 255, 255, 0.855);
+        margin-left: 0%;
+        margin-top: 10px;
     }
     .nav-item:hover {
-         border-top: 1px solid rgba(0, 0, 0, 0.34);
-         border-bottom: 1px solid orange;
-         background-image: linear-gradient(orange, rgb(176, 85, 0)) ;
-         border-radius: 5px;
+        position: relative;
+        border-top: 1px solid rgba(0, 0, 0, 0.34);
+        border-bottom: 1px solid rgb(124, 255, 124);
+        background-color: #ffc107;
+        border-radius: 5px;
         -webkit-text-fill-color: black ;
         width: 40%;
         box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);
-     }     
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 4%;
+        left: -2%;
+     }   
+
+     main {
+        margin: 2%;
+        align-content: center;
+    }
+
+    .card-body {
+        background-image: linear-gradient( rgb(70, 70, 70), black);
+        -webkit-text-fill-color: white;
+        text-align: justify;
+    }
+    .card2 {
+        background-image: linear-gradient(rgb(56, 73, 0), black);
+    }
+    .card3 {
+        background-image: linear-gradient(rgb(78, 75, 0), black);
+    }
+                    #card-tundra {
+                        position: relative;
+                        height: 649px;
+                        Left: 2.5%;
+                    }        
+
+                    #card-taiga {
+                        position: relative;
+                        left: 2.5%;
+                        top: 32px;
+                        height: 654px ;
+                    }
+
+                    #card-temperate {
+                        position: relative;
+                        left: 2.5%;
+                        top: 65px;
+                        height:655px;
+                    }
+
+    #button-tundra {
+        position: relative;
+        bottom: -20px;
+        -webkit-text-fill-color: black;
+    }
+    #button-taiga {
+        -webkit-text-fill-color: black;
+    }
+    #button-temperate {
+        position: relative;
+        bottom: -99px;
+        -webkit-text-fill-color: black;
+    }
+    .bi-search {
+        background-color: white;
+        height: 50px;
+        width: 50px;
+        border-radius: 5px;
+        position: relative;
+        left:8px;
+        padding: 5px;
+    }
   }
- 

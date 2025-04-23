@@ -11,7 +11,7 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+<link rel="icon"  type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/2/22/Earth_Western_Hemisphere_transparent_background.png">
 </head>
 
 
@@ -66,6 +66,7 @@
       </div>
     </div>
 </div>
+
       <menu class="menu1">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
           <div class="container-fluid">
@@ -75,31 +76,67 @@
             <div class="collapse navbar-collapse" id="mynavbar">
               <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">AQUATIC</a>
+                  <a class="nav-link" href="form.html">LOG-IN</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">RAINFOREST</a>
+                  <a class="nav-link" href="form.html">SIGN-IN</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">DESERT</a>
+                  <a class="nav-link" href="#">SCIENCE</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">GRASSLAND</a>
+                  <a class="nav-link" href="#">NEWS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">TUNDRA</a>
+                  <a class="nav-link" href="#">CONTACT</a>
                 </li>
               </ul>
               <form class="d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg>
                 <input class="form-control me-2" type="text" placeholder="Search">
-                <button class="btn" type="button">Search</button>
+                <button class="btn btn-warning" type="button">Search</button>
               </form>
             </div>
           </div>
         </nav>
       </menu>
 
-  
-  
+      <main>
+        <div id="card-tundra" class="card" style="width:400px">
+          <img class="card-img-top" src="https://media.istockphoto.com/id/515891664/photo/pools-in-the-tundra-mountains.jpg?s=612x612&w=0&k=20&c=QsrFxGtlsBDfpon7piYKQ_T_Jo9qCNDos3H4NopN-mA=" alt="tundra" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">TUNDRA</h4>
+            <p class="card-text">The tundra biome is a cold, treeless regioncharacterized by permafrost (permanently frozen ground), low 
+               temperatures, and short growing seasons. It's found in high-latitude areas near the Arctic Circle (Arctic tundra) and at h
+               igh altitudes on mountains (alpine tundra). While it receiveslow precipitation, it's considered a wet environment due to slow evaporation</p>
+            <a href="#" id="button-tundra" class="btn btn-warning">Go to biome</a>
+          </div>
+        </div>
+
+         <div id="card-taiga"class="card" style="width:400px">
+          <img class="card-img-top" src="https://media.istockphoto.com/id/474412346/pt/foto/taiga-floresta.jpg?s=612x612&w=0&k=20&c=qUQVHweaWc4pAh2gxx7DBXqMjo9M4ri7V9jJ0RgeJjo=" alt="tundra" style="width:100%">
+          <div class="card-body card2">
+            <h4 class="card-title">BOREAL FOREST ( TAIGA )</h4>
+            <p class="card-text">Boreal forests, also known as taiga, are the largest land-based biome on Earth, characterized by long, 
+              cold winters and short, cool summers. They are dominated by conifer species like spruce, fir, and pine, with some deciduous
+              trees like birch and aspen. Boreal forests span across North America, Europe, and Asia, and are crucial for regulating 
+              global climate through carbon storage and their impact on land surface albedo</p>
+            <a href="#" id="button-taiga" class="btn btn-warning">Go to biome</a>
+          </div>
+        </div>
+
+        <div id="card-temperate" class="card" style="width:400px">
+          <img class="card-img-top" src=" https://media.istockphoto.com/id/870345414/photo/cows-livestock-herding-in-alpine-landscape-near-karwendel-mountain-range-and-bavarian-alps-in.jpg?s=612x612&w=0&k=20&c=bWj37qIOr0N4yLI9p1mY52g0VlUO4F8MioGK88o9FW4=" alt="tundra" style="width:100%">
+          <div class="card-body card3">
+            <h4 class="card-title">TEMPERATE FOREST</h4>
+            <p class="card-text">The temperate forest biome is characterized by a distinct seasonality that includes a long growing season together with a cold winter
+               dormant season. The biome is distributed over portions of five regions of the globe: North America, South America, Europe, Asia, and Australia–New 
+               Zealand</p>
+            <a href="#"id="button-temperate" class="btn btn-warning">Go to biome</a>
+          </div>
+        </div>
+      </main>
 </body>
 </html>
