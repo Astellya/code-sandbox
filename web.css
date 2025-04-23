@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*//////////////////////////// COMPUTER /////////////////////////////////////////////////////////*/
 @media screen and (min-width:1145px) {
     *{
@@ -12,17 +12,6 @@
     body {
         background-image: linear-gradient(rgb(0, 40, 12), rgb(0, 0, 0));
         height: 100%;
-=======
-/*//////////////////////////// COMPUTER /////////////////////////////////*/
-@media screen and (min-width:900px) {
-    h1 { text-align: center;
-        -webkit-text-fill-color: rgba(255, 255, 255, 0.897);font-family:'Times New Roman', Times, serif
-        }
-
-    body {
-        background-image: linear-gradient(rgb(18, 107, 45), rgb(4, 56, 49));
-        height: 100vw;
->>>>>>> 5af921ddf261ba9ec5a4e69ef29858bf8f272810
     }
 
     #demo {
@@ -272,13 +261,9 @@ nav{
     }
 
     body {
-<<<<<<< HEAD
         background-image: linear-gradient(rgb(0, 40, 12), rgb(0, 0, 0));
         height:2450px;
-=======
-        background-image: linear-gradient(rgb(18, 107, 45), rgb(4, 56, 49));
-        height: 126vw;
->>>>>>> 5af921ddf261ba9ec5a4e69ef29858bf8f272810
+
     }
 
     #demo {
@@ -314,13 +299,8 @@ nav{
     }
     .nav-item:hover {
         border-top: 1px solid rgba(0, 0, 0, 0.34);
-<<<<<<< HEAD
         border-bottom: 1px solid rgb(124, 255, 124);
         background-color: #ffc107 ;
-=======
-        border-bottom: 1px solid rgb(96, 255, 64);
-        background-image: linear-gradient(orange, rgb(255, 230, 0)) ;
->>>>>>> 5af921ddf261ba9ec5a4e69ef29858bf8f272810
         border-radius: 5px;
         -webkit-text-fill-color: black ;
         box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);
@@ -388,29 +368,8 @@ nav{
 
 
 
-<<<<<<< HEAD
+
 /*/////////////////////////////   MOBILE  ////////////////////////////////////////////////////////////////////////////*/
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*///////////////////////////// MOBILE  ///////////////////////////////////////*/
->>>>>>> 5af921ddf261ba9ec5a4e69ef29858bf8f272810
 @media screen and (max-width:579px ) { 
     *{
         font-family: Verdana, Tahoma, sans-serif;
@@ -423,13 +382,8 @@ nav{
    
 
     body {
-<<<<<<< HEAD
         background-image: linear-gradient(rgb(0, 40, 12), rgb(0, 0, 0));
         height: 100%;
-=======
-        background-image: linear-gradient(rgb(18, 107, 45),rgb(4, 56, 49));
-        height: 222vw;
->>>>>>> 5af921ddf261ba9ec5a4e69ef29858bf8f272810
     }
 
     #demo {
