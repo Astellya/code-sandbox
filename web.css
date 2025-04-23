@@ -6,7 +6,7 @@
     }
 
     body {
-        background-image: linear-gradient(rgb(0, 40, 12), rgb(0, 0, 0));
+        background-image: linear-gradient(rgb(18, 107, 45), rgb(0, 0, 0));
         height: 100vw;
     }
 
@@ -30,7 +30,7 @@ button {
 
 
 nav{
-    background-image: linear-gradient(rgb(0, 124, 0), rgb(0, 74, 0));
+    background-image: linear-gradient(rgb(18, 107, 45), rgb(0, 74, 0));
     position:relative;
     left:-2.6%;
     width: 102.6%;
